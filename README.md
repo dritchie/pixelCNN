@@ -1,5 +1,5 @@
 # pixelCNN
-Torch implementation of PixelCNN for MNIST.
+Torch implementation of PixelCNN for MNIST. Implements the network described in [these](https://arxiv.org/abs/1601.06759) [papers](https://arxiv.org/abs/1606.05328). kundan2510's [Theano implementation](https://github.com/kundan2510/pixelCNN) was an invaluable reference.
 
 Requires `cutorch` and `cudnn`.
 
