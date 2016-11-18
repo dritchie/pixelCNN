@@ -33,7 +33,7 @@ model = model:cuda()
 print('')
 
 -- Loss
-local criterion = cudnn.SpatialCrossEntropyCriterion()
+local criterion = cudnn.SpatialCrossEntropyCriterion():cuda()
 
 -- Options for optimizer
 local optimState = {
